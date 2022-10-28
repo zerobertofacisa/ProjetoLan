@@ -1,0 +1,30 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #518FD8;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer > span {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.copyright {
+  font-family: Robot, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: small;
+}
+
+small .copyright {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  clear: both;
+}
+
+.redes-sociais {
+  justify-self: center;
+}
