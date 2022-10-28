@@ -1,22 +1,22 @@
-import { ListarUsuariosComponent } from './componentes/usuario/listar-usuarios/listar-usuarios.component';
-import { CriarComponent } from './componentes/usuario/criar/criar.component';
+import { UsersCrudComponent } from './views/users-crud/users-crud.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { HomeComponent } from './views/home/home.component';
+
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'listarUsuario',
-    pathMatch: 'full'
-  },
-  {
-    path: 'addUsuario',
-    component: CriarComponent
-  },
-  {
-    path: 'listarUsuario',
-    component: ListarUsuariosComponent
-  }
+    path:"",
+    component: HomeComponent
+},
+{
+    path:"user",
+    component: UsersCrudComponent
+},
+{
+    path:"user/create",
+    component: UsersCrudComponent
+}
 ];
 
 @NgModule({
