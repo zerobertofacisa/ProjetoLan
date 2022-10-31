@@ -1,3 +1,4 @@
+import { UserCreateComponent } from './components/user/user-create/user-create.component';
 import { UsersCrudComponent } from './views/users-crud/users-crud.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -15,7 +16,7 @@ const routes: Routes = [
 },
 {
     path:"user/create",
-    component: UsersCrudComponent
+    component: UserCreateComponent
 }
 ];
 
