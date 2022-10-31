@@ -2,16 +2,16 @@
   <mat-card-title>Novo Usuário</mat-card-title>
   <form>
       <mat-form-field>
-          <input matInput placeholder="Nome"
+          <input matInput placeholder="Nome Completo"
               [(ngModel)]="user.name" name="name">
       </mat-form-field>
       <mat-form-field>
-          <input matInput placeholder="email@email.com"
+          <input matInput placeholder="Email"
               [(ngModel)]="user.email" name="email">
       </mat-form-field>
       <mat-form-field>
-        <input matInput placeholder="+55 (XXX) XXXXX-XXXX"
-            [(ngModel)]="user.phone" name="email">
+        <input matInput placeholder="Telefone"
+            [(ngModel)]="user.phone" name="phone">
     </mat-form-field>
     <mat-form-field>
       <input matInput placeholder="******"

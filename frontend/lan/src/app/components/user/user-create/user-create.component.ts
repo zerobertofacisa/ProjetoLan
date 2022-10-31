@@ -25,10 +25,8 @@ export class UserCreateComponent implements OnInit {
 
   createUser(): void {
     this.UsersService.create(this.user).subscribe(() => {
-      this.UsersService.showMessage('Usuário cadastrado!')
-      this.router.navigate(['/user'])
+    this.UsersService.showMessage('Usuário cadastrado!')
+    this.router.navigate(['/user'])
     })
   }
-
-
 }
