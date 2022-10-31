@@ -29,9 +29,12 @@ import { RedDirective } from './directives/red.directives';
 import { ForDirective } from './directives/for.directives';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from  '@angular/common';
-import { UserReadComponent } from './components/usser/user-read/user-read.component';
-import { UserUpdateComponent } from './components/usser/user-update/user-update.component';
-import { UserDeleteComponent } from './components/usser/user-delete/user-delete.component';
+import { UserReadComponent } from './components/user/user-read/user-read.component';
+import { UserUpdateComponent } from './components/user/user-update/user-update.component';
+import { UserDeleteComponent } from './components/user/user-delete/user-delete.component';
+
+
+
 
 registerLocaleData(localePt);
 @NgModule({
